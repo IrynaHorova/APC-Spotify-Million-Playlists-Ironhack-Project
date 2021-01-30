@@ -9,14 +9,14 @@ People love playlists. Spotify reported in 2008 that their users have generated 
 Playlists create benefits for consumers by providing personalised music discovery and reccomendations for various occasions, moods and themes.
 The importance of playlist for the music industry is also paramount, covering use cases like consumer engagement improvement, increased playtime, better music search, and also helping less known artist get discovered though automatically generated playlists.
 
-In this project I have explored Content Based (CB) filtering and Collaborative Filtering (CF) with python to solve the task of automatic playlist creation based on first n tracks from a playlist or n randomly selected items from a playlist.
+In this project I have explored Content Based Filtering (CBF) and Collaborative Filtering (CF) with python to solve the task of automatic playlist creation based on first n tracks from a playlist or n randomly selected items from a playlist.
 
 ## Dataset
 
 Dataset comes from original [1] [Spotify Million Playlist Dataset Challenge](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge)
 
 ## Models
-As mentioned above, the project used Collaborative Filtering (CF) and Content Based (CB) filtering as two main approaches
+As mentioned above, the project used Collaborative Filtering (CF) and Content Based Filtering (CBF) as two main approaches
 
 #### Collaborative filtering 
 [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering): This method makes automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). The underlying assumption of the collaborative filtering approach is that if a person A has the same opinion as a person B on a set of items, A is more likely to have B's opinion for a given item than that of a randomly chosen person.
@@ -39,9 +39,9 @@ Notebooks:
 [Content-Based Filtering](http://recommender-systems.org/content-based-filtering/): This method uses only information about the description and attributes of the items users has previously consumed to model user's preferences. In other words, these algorithms try to recommend items that are similar to those that a user liked in the past (or is examining in the present). In particular, various candidate items are compared with items previously rated by the user and the best-matching items are recommended.
 
 Notebooks:
-* `modeling-notebooks/CB00_audio_features.ipynb` - contains demo
-* WIP: `modeling-notebooks/CB01_Audio_features_genres_data_preparation.ipynb`
-* WIP: `modeling-notebooks/CB01_Audio_features_genres_model.ipynb`
+* `modeling-notebooks/CBF00_audio_features.ipynb` - contains demo
+* WIP: `modeling-notebooks/CBF01_Audio_features_genres_data_preparation.ipynb`
+* WIP: `modeling-notebooks/CBF01_Audio_features_genres_model.ipynb`
 
 
 ## Evaluation
